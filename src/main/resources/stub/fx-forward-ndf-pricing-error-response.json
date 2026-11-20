@@ -1,0 +1,45 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": "SG",
+    "LoginID": "INTXMSTAP",
+    "SourceSystem": "TAP",
+    "MachineIP": "172.29.221.171",
+    "RequestID": "17229221171_1793272491828",
+    "ResponseAt": "29-Oct-2026 07:14:51 PM",
+    "Status": "Failed"
+  },
+  "PriceEnquiryResponse": {
+    "PriceQuoteRef": 0,
+    "NearLeg": {
+      "CCY1Amount": 0,
+      "CCY2Amount": 0,
+      "BankRate": 0,
+      "SwapPoints": 0,
+      "SpotRate": 0,
+      "FixingDate": null,
+      "ValueDate": null,
+      "BankSpread": 0,
+      "CustomerRate": 0
+    },
+    "FarLeg": {
+      "CCY1Amount": 0,
+      "CCY2Amount": 0,
+      "BankRate": 0,
+      "SwapPoints": 0,
+      "SpotRate": 0,
+      "FixingDate": null,
+      "ValueDate": null,
+      "BankSpread": 0,
+      "CustomerRate": 0
+    },
+    "IndicativePrice": false,
+    "QuoteStartDatetime": null,
+    "QuoteEndDatetime": null,
+    "DealerRemark": null,
+    "ResponseDetails": {
+      "Code": "1080",
+      "Description": "Customer is deactivated. Pricing not allowed.",
+      "Remark": null
+    }
+  }
+}

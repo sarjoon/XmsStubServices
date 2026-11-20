@@ -1,0 +1,45 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": null,
+    "LoginID": null,
+    "SourceSystem": null,
+    "MachineIP": null,
+    "RequestID": null,
+    "ResponseAt": "29-Oct-2026 01:53:05 PM",
+    "Status": "Failed"
+  },
+  "PriceEnquiryResponse": {
+    "PriceQuoteRef": 0,
+    "NearLeg": {
+      "CCY1Amount": 0,
+      "CCY2Amount": 0,
+      "BankRate": 0,
+      "SwapPoints": 0,
+      "SpotRate": 0,
+      "FixingDate": null,
+      "ValueDate": null,
+      "BankSpread": 0,
+      "CustomerRate": 0
+    },
+    "FarLeg": {
+      "CCY1Amount": 0,
+      "CCY2Amount": 0,
+      "BankRate": 0,
+      "SwapPoints": 0,
+      "SpotRate": 0,
+      "FixingDate": null,
+      "ValueDate": null,
+      "BankSpread": 0,
+      "CustomerRate": 0
+    },
+    "IsIndicativePrice": false,
+    "QuoteStartDatetime": null,
+    "QuoteEndDatetime": null,
+    "DealerRemark": null,
+    "ResponseDetails": {
+      "Code": "1051",
+      "Description": "Details not found for currency pair AED - GBP",
+      "Remark": null
+    }
+  }
+}

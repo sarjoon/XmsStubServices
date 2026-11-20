@@ -1,0 +1,22 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": "SG",
+    "LoginID": "INTXMSTAP",
+    "SourceSystem": "TAP",
+    "MachineIP": "172.29.221.171",
+    "RequestID": "17229221171_1793199215138",
+    "ResponseAt": "28-Oct-2026 10:53:37 PM",
+    "Status": "Failed"
+  },
+  "EquityEnquiryResponse": {
+    "ResponseDetails": {
+      "Code": "1001",
+      "Description": "Prices not available for security AAPL",
+      "Remark": null
+    },
+    "RFQID": "497350",
+    "AskPrice": null,
+    "BidPrice": null,
+    "LastUpdate": null
+  }
+}

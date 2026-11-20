@@ -1,0 +1,22 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": "SG",
+    "LoginID": "INTXMSTAP",
+    "SourceSystem": "TAP",
+    "MachineIP": "172.28.136.90",
+    "RequestID": "1722813690_1793357524515",
+    "ResponseAt": "30-Oct-2026 06:52:06 PM",
+    "Status": "Succeed"
+  },
+  "EquityEnquiryResponse": {
+    "ResponseDetails": {
+      "Code": "0000",
+      "Description": "success.",
+      "Remark": "RFQ placed successfully."
+    },
+    "RFQID": "257445",
+    "AskPrice": null,
+    "BidPrice": "283.82",
+    "LastUpdate": "29-Oct-2026 20:00:00.000 UTC"
+  }
+}

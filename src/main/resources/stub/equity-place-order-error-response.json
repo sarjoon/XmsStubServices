@@ -1,0 +1,24 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": "SG",
+    "LoginID": "INTXMSTAP",
+    "MachineIP": "172.29.221.171",
+    "RequestID": "17229221171_1793199370896",
+    "SourceSystem": "TAP",
+    "ResponseAt": "28-Oct-2026 10:56:10 PM",
+    "Status": "Failed"
+  },
+  "Order_Save_Res_DTO": {
+    "objResponseDetails": {
+      "ClOrdID": "FA88-10003-180006046",
+      "OrdResponseDetails": {
+        "Code": "6067",
+        "Description": "BLOOMBERG LINK IS DOWN",
+        "Remark": "Order placement failed in XMS."
+      },
+      "OrdStatus": "Rejected Order",
+      "OrderID": "",
+      "TapOrderID": "A88-10003-180006046"
+    }
+  }
+}

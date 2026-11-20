@@ -1,0 +1,22 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": "SG",
+    "LoginID": "INTXMSTAP",
+    "SourceSystem": "TAP",
+    "MachineIP": "172.18.136.201",
+    "RequestID": "17218136201_1786415434156",
+    "ResponseAt": "11-Aug-2026 10:30:34 AM",
+    "Status": "Failed"
+  },
+  "BondEnquiryResponse": {
+    "ResponseDetails": {
+      "Code": "6074",
+      "Description": "Price not availiable in price sheet. RFQ sent to SSOX.",
+      "Remark": null
+    },
+    "RFQID": "7070",
+    "AskPrice": null,
+    "BidPrice": null,
+    "RespondedBy": null
+  }
+}

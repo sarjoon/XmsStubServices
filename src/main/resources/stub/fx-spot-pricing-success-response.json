@@ -1,0 +1,45 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": "SG",
+    "LoginID": "INTXMSTAP",
+    "SourceSystem": "TAP",
+    "MachineIP": "172.28.136.90",
+    "RequestID": "1722813690_1793357684846",
+    "ResponseAt": "30-Oct-2026 06:54:45 PM",
+    "Status": "Succeed"
+  },
+  "PriceEnquiryResponse": {
+    "PriceQuoteRef": 29211437,
+    "NearLeg": {
+      "CCY1Amount": 400000.0,
+      "CCY2Amount": 62938520,
+      "BankRate": 157.3463,
+      "SwapPoints": 0.0253,
+      "SpotRate": 157.321,
+      "FixingDate": "02-Nov-2026",
+      "ValueDate": "02-Nov-2026",
+      "BankSpread": 0,
+      "CustomerRate": 157.3463
+    },
+    "FarLeg": {
+      "CCY1Amount": 0,
+      "CCY2Amount": 0,
+      "BankRate": 0,
+      "SwapPoints": 0,
+      "SpotRate": 0,
+      "FixingDate": null,
+      "ValueDate": null,
+      "BankSpread": 0,
+      "CustomerRate": 0
+    },
+    "IsIndicativePrice": false,
+    "QuoteStartDatetime": "30-10-2026 18:54:45",
+    "QuoteEndDateTime": "30-10-2026 18:55:15",
+    "DealerRemark": null,
+    "ResponseDetails": {
+      "Code": "0000",
+      "Description": null,
+      "Remark": null
+    }
+  }
+}

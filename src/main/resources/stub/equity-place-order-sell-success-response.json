@@ -1,0 +1,24 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": "SG",
+    "LoginID": "INTXMSTAP",
+    "MachineIP": "172.28.136.90",
+    "RequestID": "1722813690_1793774535161",
+    "SourceSystem": "TAP",
+    "ResponseAt": "04-Nov-2026 02:42:15 PM",
+    "Status": "Succeed"
+  },
+  "Order_Save_Res_DTO": {
+    "objResponseDetails": {
+      "ClOrdID": "R000312651",
+      "OrdResponseDetails": {
+        "Code": "0000",
+        "Description": "Order placement successful.",
+        "Remark": "Order with Order Id R000312651 placed successfully."
+      },
+      "OrdStatus": "Acknowledged Orders",
+      "OrderID": "19337467",
+      "TapOrderID": "A88-25853-180015823"
+    }
+  }
+}

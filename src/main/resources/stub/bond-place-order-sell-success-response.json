@@ -1,0 +1,23 @@
+{
+  "FinIQResponseHeader": {
+    "EntityCode": "SG",
+    "LoginID": "INTXMSTAP",
+    "SourceSystem": "TAP",
+    "MachineIP": "172.18.136.201",
+    "RequestID": "17218136201_1786506531868",
+    "ResponseAt": "12-Aug-2026 11:48:51 AM",
+    "Status": "Succeed"
+  },
+  "Order_Save_Res_DTO": {
+    "objResponseDetails": {
+      "OrdResponseDetails": {
+        "Code": "0000",
+        "Description": "Pending Bloomberg Ack.",
+        "Remark": ""
+      },
+      "ClOrdID": "R000076257",
+      "OrderID": "",
+      "OrdStatus": "New Orders"
+    }
+  }
+}

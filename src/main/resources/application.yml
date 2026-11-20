@@ -1,0 +1,82 @@
+server:
+  port: 9090
+
+# ssl:
+#   enabled: true
+#   key-store: file:/app/certs/xms-sit.jks
+#   key-store-password: ${KEYSTORE_PASSWORD}
+#   key-store-type: JKS
+#   key-alias: xms
+logging:
+  level:
+    org.springframework.web: DEBUG
+api:
+  basePath: /api/xms/
+
+  endpoints:
+    equityPricing: /equity/pricing
+    equityBooking: /equity/place-order
+    bondPricing: /bond/pricing
+    bondBooking: /bond/place-order
+    fxndfPricing: /fxndf/pricing
+    fxforwardPricing: /fxforward/pricing
+    fxswapPricing: /fxswap/pricing
+
+#Stub files
+stub:
+  responses:
+    equityPricingBuy: equity-pricing-buy
+    equityPricingSell: equity-pricing-sell
+    equityPlaceOrderBuy: equity-place-order-buy
+    equityPlaceOrderSell: equity-place-order-sell
+    equityPricingError: bond-pricing-error
+    bondPricingBuy: bond-pricing-buy
+    bondPricingSell: bond-pricing-sell
+    bondPlaceOrderBuy: bond-place-order-buy
+    bondPlaceOrderSell: bond-place-order-sell
+    bondPricingError: bond-pricing-error
+    fxndfPricingSuccess: fxndf-pricing
+    fxforwardPricingSuccess: fxforward-pricing
+    fxswapPricingSuccess: fxswap-pricing
+    fxndfPricingError: fxndf-pricing
+    fxforwardPricingError: fxforward-pricing
+    fxswapPricingError: fxswap-pricing
+
+  files:
+    # Equity
+    equityPricingBuy: stub/equity-pricing-buy-success-response.json
+    equityPricingSell: stub/equity-pricing-sell-success-response.json
+    equityPricingError: stub/equity-pricing-error-response.json
+    equityPlaceOrderBuy: stub/equity-place-order-buy-success-response.json
+    equityPlaceOrderSell: stub/equity-place-order-sell-success-response.json
+    equityPlaceOrderError: stub/equity-place-order-error-response.json
+    #Bonds
+    bondPricingBuy: stub/bond-pricing-buy-success-response.json
+    bondPricingSell: stub/bond-pricing-sell-success-response.json
+    bondPricingError: stub/bond-pricing-error-response.json
+    bondPlaceOrderBuy: stub/bond-place-order-buy-success-response.json
+    bondPlaceOrderSell: stub/bond-place-order-sell-success-response.json
+    bondPlaceOrderError: stub/bond-place-order-error-response.json
+    # FX
+    fxndfPricingSuccess: stub/fx-ndf-pricing-success-response.json
+    fxndfPricingError: stub/fx-ndf-pricing-error-response.json
+
+    fxswapPricingSuccess: stub/fx-swap-pricing-success-response.json
+    fxswapPricingError: stub/fx-swap-pricing-error-response.json
+
+    fxforwardPricingSuccess: stub/fx-forward-pricing-success-response.json
+    fxforwardPricingError: stub/fx-forward-pricing-error-response.json
+
+spring:
+  cloud:
+    config:
+      enabled: false
+      import-check:
+        enabled: false
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.JdbcClientAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.jdbc.JdbcRepositoriesAutoConfiguration
